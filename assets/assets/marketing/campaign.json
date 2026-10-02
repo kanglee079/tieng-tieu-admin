@@ -1,0 +1,1091 @@
+{
+  "schema_version": 1,
+  "id": "tieng-nha-minh-30d",
+  "title": "Tiếng nhà mình — 30 ngày cùng Tiếng Tiều",
+  "start_date": "2026-10-05",
+  "duration_days": 30,
+  "goal": "Tăng lượt tải Tiếng Tiều bằng nội dung gần gũi trên Facebook, Threads và TikTok.",
+  "time_budget": "2–3 giờ/tuần",
+  "audience": "Người Việt muốn bắt đầu học Tiếng Tiều; người nghe tiếng trong gia đình muốn thử nói; cộng đồng gắn với Chợ Lớn/TP.HCM, Sóc Trăng, Bạc Liêu và Cà Mau. Không suy mọi người Hoa thành người Tiều.",
+  "landing_url": "https://kanglee079.github.io/tieng-tieu-support/",
+  "workflow": [
+    "Chọn ý tưởng và kiểm tra nguồn.",
+    "Làm một nội dung gốc, đổi cách kể cho từng kênh.",
+    "Duyệt rồi đăng trên Facebook, Threads và TikTok.",
+    "Đo sau 48 giờ, review và cải thiện mỗi tuần."
+  ],
+  "pillars": [
+    {
+      "id": "gia-dinh",
+      "title": "Tiếng của gia đình",
+      "purpose": "Dùng một câu đã kiểm tra để mở lời và mời ký ức thật, không dựng lời kể."
+    },
+    {
+      "id": "nghe-mot-cau",
+      "title": "Nghe và thử một câu",
+      "purpose": "Audio gốc, nghĩa rõ, khoảng nghỉ và một việc nhỏ để người xem tự tập."
+    },
+    {
+      "id": "hoc-va-gop",
+      "title": "Bắt đầu và góp cách nói",
+      "purpose": "Demo thật từ điển, hỏi nhu cầu và nhận ví dụ có nguồn; không gán nội dung nền thành giọng vùng."
+    }
+  ],
+  "keywords": [
+    {
+      "id": "K1",
+      "title": "Bắt đầu học",
+      "terms": [
+        "tiếng Tiều",
+        "học tiếng Tiều",
+        "tiếng Triều Châu",
+        "Teochew",
+        "học Tiếng Tiều cho người Việt"
+      ],
+      "hashtags": [
+        "#TiengTieu",
+        "#HocTiengTieu",
+        "#Teochew"
+      ]
+    },
+    {
+      "id": "K2",
+      "title": "Tiếng của gia đình",
+      "terms": [
+        "Tiếng Tiều trong gia đình",
+        "nói chuyện với ông bà",
+        "xưng hô Tiếng Tiều",
+        "tiếng của ông bà"
+      ],
+      "hashtags": [
+        "#TiengTieu",
+        "#NguoiTieu"
+      ]
+    },
+    {
+      "id": "K3",
+      "title": "Nghe và thử nói",
+      "terms": [
+        "nghe Tiếng Tiều",
+        "phát âm Tiếng Tiều",
+        "nghe và nhắc lại",
+        "từ vựng Tiếng Tiều"
+      ],
+      "hashtags": [
+        "#TiengTieu",
+        "#HocTiengTieu"
+      ]
+    },
+    {
+      "id": "K4",
+      "title": "Dùng trong đời sống",
+      "terms": [
+        "mời cơm Tiếng Tiều",
+        "đi chợ",
+        "món Tiều",
+        "chào hỏi trong gia đình"
+      ],
+      "hashtags": [
+        "#TiengTieu"
+      ]
+    },
+    {
+      "id": "K5",
+      "title": "Cách nói nhà mình",
+      "terms": [
+        "người Tiều",
+        "Tiếng Tiều Chợ Lớn",
+        "Tiếng Tiều Sóc Trăng",
+        "cách nói Bạc Liêu",
+        "cách nói Cà Mau"
+      ],
+      "hashtags": [
+        "#NguoiTieu",
+        "#ChoLon",
+        "#SocTrang",
+        "#BacLieu",
+        "#CaMau"
+      ]
+    }
+  ],
+  "hooks": [
+    {
+      "id": "H01",
+      "text": "Nghe ông bà nói Tiếng Tiều, nhưng đến lượt mình lại chưa biết đáp sao?",
+      "cluster": "K2",
+      "type": "question"
+    },
+    {
+      "id": "H02",
+      "text": "Nhà bạn mời cơm bằng Tiếng Tiều thế nào?",
+      "cluster": "K4",
+      "type": "question"
+    },
+    {
+      "id": "H03",
+      "text": "Một câu chào để thử nói với ông bà hôm nay.",
+      "cluster": "K2",
+      "type": "practice"
+    },
+    {
+      "id": "H04",
+      "text": "Nhà bạn gọi bên nội và bên ngoại bằng những từ nào?",
+      "cluster": "K2",
+      "type": "question"
+    },
+    {
+      "id": "H05",
+      "text": "Tên món ăn này, nhà bạn đọc ra sao?",
+      "cluster": "K4",
+      "type": "question"
+    },
+    {
+      "id": "H06",
+      "text": "Nghe một lần: bạn nhận ra từ nào?",
+      "cluster": "K3",
+      "type": "listening"
+    },
+    {
+      "id": "H07",
+      "text": "Chưa nghe rõ? Mình đọc chậm thêm một lần nhé.",
+      "cluster": "K3",
+      "type": "practice"
+    },
+    {
+      "id": "H08",
+      "text": "Muốn học Tiếng Tiều, nên bắt đầu từ câu nào trong nhà?",
+      "cluster": "K1",
+      "type": "question"
+    },
+    {
+      "id": "H09",
+      "text": "Tiều, Triều Châu, Teochew: bạn thường dùng tên nào?",
+      "cluster": "K1",
+      "type": "explainer"
+    },
+    {
+      "id": "H10",
+      "text": "Câu Tiếng Tiều nào làm bạn nhớ đến một người trong gia đình?",
+      "cluster": "K2",
+      "type": "question"
+    },
+    {
+      "id": "H11",
+      "text": "Cùng một nghĩa, nhà bạn có cách nói khác không?",
+      "cluster": "K5",
+      "type": "question"
+    },
+    {
+      "id": "H12",
+      "text": "Chợ Lớn, Sóc Trăng, Bạc Liêu, Cà Mau: bạn học cách nói từ ai?",
+      "cluster": "K5",
+      "type": "question"
+    },
+    {
+      "id": "H13",
+      "text": "Hôm nay thử một từ, rồi đặt nó vào một câu.",
+      "cluster": "K3",
+      "type": "practice"
+    },
+    {
+      "id": "H14",
+      "text": "Đi chợ cùng người nhà: bạn muốn biết câu nào trước?",
+      "cluster": "K4",
+      "type": "question"
+    },
+    {
+      "id": "H15",
+      "text": "Có câu ông bà hay nói mà bạn hiểu ý nhưng chưa nói lại được không?",
+      "cluster": "K2",
+      "type": "question"
+    },
+    {
+      "id": "H16",
+      "text": "Mới bắt đầu? Thử nghe trước, chưa cần nói nhanh.",
+      "cluster": "K1",
+      "type": "practice"
+    },
+    {
+      "id": "H17",
+      "text": "Nghe, dừng lại, thử nói: cùng tập một câu ngắn.",
+      "cluster": "K3",
+      "type": "practice"
+    },
+    {
+      "id": "H18",
+      "text": "Một từ, một giọng trong nhà: bạn có ví dụ muốn góp không?",
+      "cluster": "K5",
+      "type": "question"
+    },
+    {
+      "id": "H19",
+      "text": "Bữa cơm gia đình là nơi bạn muốn dùng Tiếng Tiều nhất không?",
+      "cluster": "K4",
+      "type": "question"
+    },
+    {
+      "id": "H20",
+      "text": "Bạn muốn bắt đầu bằng nghe, từ vựng hay một câu chào?",
+      "cluster": "K1",
+      "type": "question"
+    },
+    {
+      "id": "H21",
+      "text": "Cách đọc nền và cách nói nhà mình: cùng nghe rồi góp ý.",
+      "cluster": "K5",
+      "type": "explainer"
+    },
+    {
+      "id": "H22",
+      "text": "Một câu nhỏ để mở đầu cuộc trò chuyện với người nhà.",
+      "cluster": "K2",
+      "type": "practice"
+    },
+    {
+      "id": "H23",
+      "text": "Đừng vội nhìn đáp án: thử nghe nghĩa của câu này trước.",
+      "cluster": "K3",
+      "type": "listening"
+    },
+    {
+      "id": "H24",
+      "text": "Muốn tập tiếp? Xem Tiếng Tiều có phù hợp với bạn không.",
+      "cluster": "K1",
+      "type": "demo"
+    }
+  ],
+  "trends": [
+    {
+      "title": "TikTok Next 2026: câu chuyện thật và khám phá",
+      "kind": "source_signal",
+      "detail": "Nguồn ngày 15/01/2026 nêu Reali-TEA, Curiosity Detours, Emotional ROI. Đây là dự báo nền tảng; chưa xác nhận là trend Việt Nam theo tuần.",
+      "source_url": "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead-sg?lang=en-SG",
+      "checked_at": "2026-10-02",
+      "action": "Dùng làm giả thuyết cho câu chuyện gia đình, một câu nghe và demo giá trị; không chép hashtag/case quốc tế."
+    },
+    {
+      "title": "Creative Center Việt Nam: cần kiểm tra lại trước sản xuất",
+      "kind": "source_signal",
+      "detail": "Hướng dẫn tháng 7/2026 yêu cầu đăng nhập. Phiên kiểm tra công khai chỉ thấy khung trang, chưa có hashtag/audio hoặc số liệu Việt Nam đủ xác minh.",
+      "source_url": "https://ads.tiktok.com/resources/help/article/how-to-use-trends?lang=en",
+      "checked_at": "2026-10-02",
+      "action": "Người vận hành tự ghi ngày giờ, vùng và cửa sổ dữ liệu khi có quyền truy cập; không gắn nhãn đang viral từ URL hoặc gợi ý đơn lẻ."
+    },
+    {
+      "title": "Facebook ưu tiên nội dung tự sản xuất",
+      "kind": "source_signal",
+      "detail": "Meta ngày 13/03/2026 làm rõ nội dung gốc và giảm phân phối bản sao/sửa nhỏ. Đây là cơ chế phân phối, không phải dự báo reach cho Tiếng Tiều.",
+      "source_url": "https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/",
+      "checked_at": "2026-10-02",
+      "action": "Quay màn hình app và thiết kế card từ nguồn đã kiểm tra; không lấy lại clip người khác."
+    },
+    {
+      "title": "Threads: câu hỏi có ngữ cảnh",
+      "kind": "evergreen_experiment",
+      "detail": "Thử một câu hỏi rõ về câu nói trong gia đình và trả lời đúng nội dung. Hướng dẫn Meta hỗ trợ hội thoại; chưa có số liệu riêng cho cộng đồng Tiếng Tiều.",
+      "source_url": "https://about.fb.com/news/2024/10/find-your-community-with-new-threads-educational-insights/",
+      "checked_at": "2026-10-02",
+      "action": "Viết riêng bản Threads, chọn topic liên quan nếu có; đo phản hồi có nội dung và không nhồi hashtag."
+    },
+    {
+      "title": "Nghe trước, hiện nghĩa sau",
+      "kind": "evergreen_experiment",
+      "detail": "Thử format quiz nghe với mục 790/14 đã kiểm tra. Không khẳng định format này đang thịnh hành hoặc bảo đảm học nhanh.",
+      "source_url": "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead-sg?lang=en-SG",
+      "checked_at": "2026-10-02",
+      "action": "Giữ cùng audio/câu, thay một hook; so sánh trong cùng kênh và cùng tuổi bài."
+    },
+    {
+      "title": "Cách nói nhà mình, có nhãn nguồn",
+      "kind": "evergreen_experiment",
+      "detail": "Mời góp vùng/cách đọc/ví dụ nhưng chưa gọi bản góp là đặc trưng của cả vùng. App dùng cách đọc nền đã xác minh.",
+      "source_url": "https://newsroom.tiktok.com/creator-search-insights?lang=en",
+      "checked_at": "2026-10-02",
+      "action": "Lưu câu hỏi thực chất để nghiên cứu tiếp; chỉ dùng biến thể sau cố vấn duyệt hoặc đủ xác nhận độc lập."
+    }
+  ],
+  "sources": [
+    {
+      "title": "TikTok Trends: hướng dẫn cập nhật tháng 7/2026",
+      "url": "https://ads.tiktok.com/resources/help/article/how-to-use-trends?lang=en",
+      "checked_at": "2026-10-02"
+    },
+    {
+      "title": "Creative Center Việt Nam: chưa lấy được dòng trend",
+      "url": "https://ads.tiktok.com/creative/creativeCenter/trends?region=VN",
+      "checked_at": "2026-10-02"
+    },
+    {
+      "title": "Creator Search Insights: công bố 13/03/2024",
+      "url": "https://newsroom.tiktok.com/creator-search-insights?lang=en",
+      "checked_at": "2026-10-02"
+    },
+    {
+      "title": "TikTok Next 2026: dự báo 15/01/2026",
+      "url": "https://newsroom.tiktok.com/introducing-tiktok-next-2026-our-trend-forecast-for-marketers-for-the-year-ahead-sg?lang=en-SG",
+      "checked_at": "2026-10-02"
+    },
+    {
+      "title": "Facebook original content: 13/03/2026",
+      "url": "https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/",
+      "checked_at": "2026-10-02"
+    },
+    {
+      "title": "Facebook chống spam: 24/04/2025",
+      "url": "https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/",
+      "checked_at": "2026-10-02"
+    },
+    {
+      "title": "Threads: hướng dẫn hội thoại và nhịp đăng",
+      "url": "https://about.fb.com/news/2024/10/find-your-community-with-new-threads-educational-insights/",
+      "checked_at": "2026-10-02"
+    },
+    {
+      "title": "Threads: topics, links và Insights",
+      "url": "https://about.fb.com/news/2025/03/new-threads-features-more-personalized-experience-you-control/",
+      "checked_at": "2026-10-02"
+    },
+    {
+      "title": "Threads Communities: cập nhật 16/06/2026",
+      "url": "https://about.fb.com/news/2026/06/meta-launching-new-features-500-million-monthly-threads-users/",
+      "checked_at": "2026-10-02"
+    },
+    {
+      "title": "Landing sản phẩm: controller xác minh HTTP 200/canonical",
+      "url": "https://kanglee079.github.io/tieng-tieu-support/",
+      "checked_at": "2026-10-02"
+    }
+  ],
+  "posts": [
+    {
+      "id": "P01",
+      "day": 0,
+      "title": "Một câu chào trong gia đình",
+      "pillar": "gia-dinh",
+      "objective": "Khơi nhu cầu mở lời cùng người nhà",
+      "hook": "Một câu chào để thử nói với ông bà hôm nay.",
+      "keywords": [
+        "Tiếng Tiều trong gia đình",
+        "nói chuyện với ông bà"
+      ],
+      "source_ref": "word:790",
+      "source_note": "Mục 790 đã kiểm tra: 食好(阿)未 / ziah4 ho2 bhuê7 / Bạn ăn cơm chưa? (lời chào). Audio sound_04c06_jiathoabhue.mp3; cách đọc nền, không gán giọng vùng.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–2 giây: hiện hook H03 trên nền card tự thiết kế.",
+          "2–9 giây: phát audio mục 790 nguyên bản, hiện 食好(阿)未 và phiên âm ziah4 ho2 bhuê7; gắn nhãn Nội dung nền của app.",
+          "9–15 giây: hiện nghĩa Bạn ăn cơm chưa? (lời chào); dừng khoảng 3 giây để người xem tập.",
+          "15–25 giây: phát lại cùng audio và kết bằng CTA nghe/thử nói."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Muốn mở lời bằng Tiếng Tiều với người nhà? Thử câu 食好(阿)未 — ziah4 ho2 bhuê7 — “Bạn ăn cơm chưa? (lời chào)”. Nghe một lần, dừng một nhịp rồi thử nói lại. Bạn có thể xem chữ và nghĩa trong video để tập theo nhịp của mình. #TiengTieu #HocTiengTieu",
+          "cta": "Bạn muốn tập câu nào để mở lời với người nhà?"
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Một câu chào để thử với người nhà: 食好(阿)未 — ziah4 ho2 bhuê7 — “Bạn ăn cơm chưa? (lời chào)”. Nghe một lần rồi thử nói theo nhịp của bạn.",
+          "cta": "Bạn thường nghe câu chào nào trong nhà?"
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Thử câu 食好(阿)未 · ziah4 ho2 bhuê7 · “Bạn ăn cơm chưa? (lời chào)”. Nghe một lần, dừng một nhịp rồi tập nói. #TiengTieu #HocTiengTieu",
+          "cta": "Nghe rồi thử nói lại một lần nhé."
+        }
+      }
+    },
+    {
+      "id": "P02",
+      "day": 2,
+      "title": "Khi nghe mà chưa hiểu",
+      "pillar": "nghe-mot-cau",
+      "objective": "Tập một câu trả lời ngắn có nghĩa rõ",
+      "hook": "Nghe ông bà nói Tiếng Tiều, nhưng đến lượt mình lại chưa biết đáp sao?",
+      "keywords": [
+        "nghe Tiếng Tiều",
+        "Tiếng Tiều trong gia đình"
+      ],
+      "source_ref": "word:14",
+      "source_note": "Mục 14 đã kiểm tra: 我聼無 / ua2 tian1 bho5 / Tôi nghe không hiểu. Dùng audio thật trong mục 14, không tự tổng hợp giọng.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–3 giây: hiện câu hỏi Nghe nhưng chưa hiểu, nói thế nào? cùng bối cảnh chữ đơn giản.",
+          "3–10 giây: quay mục 14 trong từ điển và phát audio thật.",
+          "10–17 giây: hiện Tôi nghe không hiểu và chừa 3 giây yên lặng để thử nói.",
+          "17–26 giây: phát lại audio, giữ nhãn Nội dung nền của app và một CTA thử nói."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Khi nghe Tiếng Tiều mà chưa hiểu, thử tập câu 我聼無 — ua2 tian1 bho5 — “Tôi nghe không hiểu.” Video có một khoảng nghỉ để bạn nghe rồi thử nói. Cứ tập theo nhịp của mình, có thể nghe lại khi cần. #TiengTieu #HocTiengTieu",
+          "cta": "Thử nghe và nói lại câu này một lần nhé."
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Khi nghe mà chưa hiểu, thử tập 我聼無 — ua2 tian1 bho5 — “Tôi nghe không hiểu.” Video chừa một nhịp để bạn thử nói sau khi nghe.",
+          "cta": "Bạn muốn bài sau có thêm khoảng nghỉ để thử nói không?"
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "我聼無 · ua2 tian1 bho5 · “Tôi nghe không hiểu.” Nghe, dừng lại rồi thử nói. #TiengTieu #HocTiengTieu",
+          "cta": "Thử nói lại một lần, không cần nói nhanh."
+        }
+      }
+    },
+    {
+      "id": "P03",
+      "day": 4,
+      "title": "Bắt đầu từ một mục trong từ điển",
+      "pillar": "hoc-va-gop",
+      "objective": "Cho thấy thao tác thật và dẫn người có nhu cầu tới phần giới thiệu",
+      "hook": "Muốn học Tiếng Tiều, nên bắt đầu từ câu nào trong nhà?",
+      "keywords": [
+        "học tiếng Tiều",
+        "học Tiếng Tiều cho người Việt"
+      ],
+      "source_ref": "app:dictionary",
+      "source_note": "Quay thao tác thật trong app: mở từ điển, tìm/mở mục 14 hoặc 790, xem nghĩa và nghe audio. Không dùng màn giả hoặc tính năng chưa hiện có.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–3 giây: hiện hook H08; quay màn hình app sạch.",
+          "3–12 giây: mở từ điển và tìm/mở mục 14 bằng thao tác thật; cắt thời gian chờ nhưng không dựng tính năng.",
+          "12–22 giây: chỉ vào nghĩa tiếng Việt, phát audio thật và cho thấy câu/phiên âm nguồn.",
+          "22–30 giây: hiện landing canonical cùng CTA tìm hiểu."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Mới bắt đầu học Tiếng Tiều? Thử chọn một câu có nghĩa rõ. Video hướng dẫn mở từ điển, tìm câu “Tôi nghe không hiểu”, xem nghĩa tiếng Việt rồi nghe audio. Bạn có thể xem cách dùng app trước và chọn một câu muốn tập. #TiengTieu #HocTiengTieu",
+          "cta": "Xem phần giới thiệu Tiếng Tiều: https://kanglee079.github.io/tieng-tieu-support/"
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Bạn muốn bắt đầu học Tiếng Tiều bằng câu nào? Video mở từ điển, tìm câu “Tôi nghe không hiểu”, xem nghĩa tiếng Việt rồi nghe audio.",
+          "cta": "Tìm hiểu app tại https://kanglee079.github.io/tieng-tieu-support/"
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Bắt đầu bằng một câu: mở từ điển → xem nghĩa tiếng Việt → nghe audio. Ví dụ hôm nay là “Tôi nghe không hiểu”. #TiengTieu #HocTiengTieu",
+          "cta": "Tìm hiểu Tiếng Tiều tại https://kanglee079.github.io/tieng-tieu-support/"
+        }
+      }
+    },
+    {
+      "id": "P04",
+      "day": 7,
+      "title": "Nghe rồi đoán nghĩa câu chào",
+      "pillar": "nghe-mot-cau",
+      "objective": "Thử hook nghe trước khi hiện đáp án",
+      "hook": "Nghe một lần: bạn nhận ra từ nào?",
+      "keywords": [
+        "nghe Tiếng Tiều",
+        "nghe và nhắc lại"
+      ],
+      "source_ref": "word:790",
+      "source_note": "Giữ audio/phiên âm mục 790 nguyên bản; đáp án là nghĩa đã kiểm tra, không diễn giải thêm thành cách chào của vùng cụ thể.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–2 giây: hiện hook H06, chưa hiện nghĩa tiếng Việt.",
+          "2–8 giây: phát audio mục 790 nguyên bản, chỉ hiện nhãn Nội dung nền của app.",
+          "8–13 giây: hiện Bạn đoán nghĩa gì? và chừa khoảng nghỉ.",
+          "13–26 giây: hiện nguyên câu/phiên âm/nghĩa đã kiểm tra và phát lại audio; kết bằng CTA nghe."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Thử nghe một câu Tiếng Tiều trước khi nhìn nghĩa nhé. Video dành một nhịp để bạn tự đoán, rồi mới hiện câu, phiên âm và đáp án ở cuối. Nếu lần đầu chưa nghe ra, có thể nghe lại theo nhịp của mình. #TiengTieu #HocTiengTieu",
+          "cta": "Nghe lại một lần rồi thử nói theo nhé."
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Bạn thích xem nghĩa trước khi nghe, hay nghe trước rồi mới mở đáp án? Thử nghe câu trong video; nghĩa sẽ hiện ở cuối.",
+          "cta": "Bạn chọn nghe trước hay đọc trước?"
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Nghe trước, xem nghĩa sau. Bạn đoán câu trong video có nghĩa gì? Đáp án ở cuối. #TiengTieu #HocTiengTieu",
+          "cta": "Nghe một lần rồi tự thử đoán nghĩa nhé."
+        }
+      }
+    },
+    {
+      "id": "P05",
+      "day": 9,
+      "title": "Từ nào khiến bạn nhớ đến người nhà?",
+      "pillar": "gia-dinh",
+      "objective": "Thu thập câu hỏi và ký ức thật từ người xem",
+      "hook": "Câu Tiếng Tiều nào làm bạn nhớ đến một người trong gia đình?",
+      "keywords": [
+        "tiếng của ông bà",
+        "Tiếng Tiều trong gia đình"
+      ],
+      "source_ref": "app:dictionary",
+      "source_note": "Bài hỏi nhu cầu, không dựng lời người dùng. Card minh hoạ có thể lấy nguyên mục 790; chưa đưa bình luận/ảnh người khác vào video khi chưa có đồng ý.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–3 giây: hiện hook H10 trên card chữ do nhóm tự thiết kế.",
+          "3–12 giây: dùng câu chào mục 790 làm ví dụ; ghi rõ Ví dụ từ nội dung nền.",
+          "12–20 giây: hiện gợi ý Có thể ghi nghĩa tiếng Việt.",
+          "20–28 giây: kết bằng một câu hỏi."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Có câu Tiếng Tiều nào khiến bạn nhớ đến một người trong gia đình không? Một câu chào, một lời dặn hay một từ rất quen cũng có thể gợi nhiều ký ức. Bạn có thể chỉ ghi nghĩa tiếng Việt nếu chưa biết viết. #TiengTieu #NguoiTieu",
+          "cta": "Bạn nhớ câu nào hay nghe nhất trong nhà?"
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Một câu nói có thể gợi cả một người trong gia đình. Với Tiếng Tiều, câu nào thường xuất hiện trong ký ức của bạn? Có thể chỉ ghi nghĩa tiếng Việt nếu chưa biết viết.",
+          "cta": "Bạn muốn chia sẻ câu nào?"
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Một câu chào, lời dặn hay từ rất quen: câu Tiếng Tiều nào khiến bạn nhớ đến người nhà? #TiengTieu #NguoiTieu",
+          "cta": "Bạn muốn chia sẻ câu hay nghe trong nhà không?"
+        }
+      }
+    },
+    {
+      "id": "P06",
+      "day": 11,
+      "title": "Bạn muốn học câu nào trong đời sống?",
+      "pillar": "hoc-va-gop",
+      "objective": "Chọn nhu cầu cho nội dung tiếp theo",
+      "hook": "Đi chợ cùng người nhà: bạn muốn biết câu nào trước?",
+      "keywords": [
+        "đi chợ",
+        "chào hỏi trong gia đình"
+      ],
+      "source_ref": "app:dictionary",
+      "source_note": "Nội dung khảo sát nhu cầu; chưa dịch một câu đi chợ chưa được kiểm tra. Chỉ quay từ điển với mục nguồn đã xác minh.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–3 giây: hiện hook H14 và ba nhãn Chào hỏi / Chưa hiểu / Đi chợ.",
+          "3–14 giây: quay thật mục 790 và 14 như hai ví dụ đã kiểm tra.",
+          "14–23 giây: hiện Có thể ghi câu muốn học bằng tiếng Việt.",
+          "23–30 giây: hỏi một tình huống người xem cần."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Nếu học một câu Tiếng Tiều cho đời sống hằng ngày, bạn sẽ chọn tình huống nào trước: chào hỏi, nói rằng mình chưa hiểu, hay một câu dùng khi đi chợ? Bạn có thể viết điều muốn nói bằng tiếng Việt để nhóm chọn và chuẩn bị bài sau. #TiengTieu #HocTiengTieu",
+          "cta": "Bạn muốn học câu nào và dùng trong tình huống nào?"
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Đi chợ cùng người nhà: bạn muốn biết câu Tiếng Tiều nào trước? Có thể viết câu bạn muốn học bằng tiếng Việt để nhóm chọn và chuẩn bị bài sau.",
+          "cta": "Bạn chọn tình huống nào?"
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Học một câu cho đời sống: chào hỏi, nói rằng chưa hiểu hay hỏi khi đi chợ? Bạn cần tình huống nào trước? #TiengTieu #HocTiengTieu",
+          "cta": "Viết tình huống bạn muốn tập bằng tiếng Việt nhé."
+        }
+      }
+    },
+    {
+      "id": "P07",
+      "day": 14,
+      "title": "Lời chào có nghĩa Bạn ăn cơm chưa?",
+      "pillar": "gia-dinh",
+      "objective": "Dùng lại câu nền trong một ngữ cảnh dễ nhớ",
+      "hook": "Bữa cơm gia đình là nơi bạn muốn dùng Tiếng Tiều nhất không?",
+      "keywords": [
+        "chào hỏi trong gia đình",
+        "Tiếng Tiều trong gia đình"
+      ],
+      "source_ref": "word:790",
+      "source_note": "Nghĩa nguồn mục 790 ghi rõ Bạn ăn cơm chưa? (lời chào). Không đổi thành câu mời cơm hoặc kết luận phong tục tất cả người Tiều.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–3 giây: hiện câu hỏi Bạn muốn dùng Tiếng Tiều trong bữa cơm gia đình không?",
+          "3–10 giây: hiện mục 790 và phát audio đã kiểm tra.",
+          "10–18 giây: làm rõ nghĩa có ghi chú lời chào.",
+          "18–28 giây: chừa nhịp tập rồi phát lại audio, một CTA thử nói."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Thử nghe lại câu 食好(阿)未 — ziah4 ho2 bhuê7 — “Bạn ăn cơm chưa? (lời chào)”. Video có chữ, nghĩa và khoảng nghỉ để bạn tập. Nhà bạn có câu chào nào rất quen khi mọi người gặp nhau? #TiengTieu #HocTiengTieu",
+          "cta": "Nhà bạn dùng câu chào nào trong đời sống hằng ngày?"
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "食好(阿)未 — ziah4 ho2 bhuê7 — “Bạn ăn cơm chưa? (lời chào)”. Thử nghe câu này trong video. Với người nhà, bạn thường mở đầu bằng câu nào?",
+          "cta": "Nhà bạn thường mở đầu cuộc trò chuyện bằng câu nào?"
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Một câu chào để nghe và tập: 食好(阿)未 · ziah4 ho2 bhuê7 · “Bạn ăn cơm chưa? (lời chào)”. #TiengTieu #HocTiengTieu",
+          "cta": "Nghe rồi thử nói theo câu chào này nhé."
+        }
+      }
+    },
+    {
+      "id": "P08",
+      "day": 16,
+      "title": "Một câu có khoảng nghỉ để thử nói",
+      "pillar": "nghe-mot-cau",
+      "objective": "Thử format nghe và nhắc lại",
+      "hook": "Nghe, dừng lại, thử nói: cùng tập một câu ngắn.",
+      "keywords": [
+        "nghe và nhắc lại",
+        "phát âm Tiếng Tiều"
+      ],
+      "source_ref": "word:14",
+      "source_note": "Dùng bản sao đúng mục 14 và audio thật; không tự kéo chậm audio làm thay đổi âm/độ cao. Khoảng nghỉ đặt giữa các lần phát.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–3 giây: hiện hook H17 và câu nguồn mục 14.",
+          "3–9 giây: phát audio mục 14 tốc độ gốc, hiện nghĩa rõ.",
+          "9–15 giây: giữ màn hình yên với chữ Đến lượt bạn.",
+          "15–28 giây: phát lại nguyên audio và kết bằng CTA thử nói."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Nghe rồi đến lượt bạn thử nói: 我聼無 — ua2 tian1 bho5 — “Tôi nghe không hiểu.” Video giữ một khoảng nghỉ giữa hai lần nghe để bạn tập theo nhịp của mình. Bạn có thể nhìn chữ và nghĩa khi cần. #TiengTieu #HocTiengTieu",
+          "cta": "Thử nói lại trong khoảng nghỉ nhé."
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Bạn cần thêm một nhịp để thử nói sau khi nghe không? Video chừa khoảng nghỉ giữa hai lần phát câu 我聼無 — “Tôi nghe không hiểu.”",
+          "cta": "Khoảng nghỉ này có giúp bạn dễ tập hơn không?"
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Nghe → dừng → thử nói. 我聼無 · ua2 tian1 bho5 · “Tôi nghe không hiểu.” Có một khoảng nghỉ để bạn tập. #TiengTieu #HocTiengTieu",
+          "cta": "Thử nói lại trong khoảng nghỉ nhé."
+        }
+      }
+    },
+    {
+      "id": "P09",
+      "day": 18,
+      "title": "Góp cách nói nhà mình",
+      "pillar": "hoc-va-gop",
+      "objective": "Mời đóng góp có ngữ cảnh và nguồn",
+      "hook": "Một từ, một giọng trong nhà: bạn có ví dụ muốn góp không?",
+      "keywords": [
+        "người Tiều",
+        "cách nói trong gia đình"
+      ],
+      "source_ref": "app:dictionary",
+      "source_note": "Câu ví dụ dùng mục 14 đã kiểm tra. Bản góp vùng là thông tin chờ xác minh; chưa gọi là giọng Chợ Lớn/Sóc Trăng/Bạc Liêu/Cà Mau chỉ dựa trên một phản hồi.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–3 giây: hiện hook H18 và dòng Bản góp cần kiểm chứng.",
+          "3–12 giây: quay/hiện mục 14 chính xác làm điểm tham chiếu, phát audio nền nếu dùng.",
+          "12–21 giây: hiện ba thông tin Vùng / Cách nói / Ví dụ.",
+          "21–30 giây: kết bằng CTA góp ví dụ."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Với nghĩa “Tôi nghe không hiểu”, nhà bạn có cách nói khác không? Ví dụ để cùng nghe là 我聼無 — ua2 tian1 bho5. Nếu muốn góp cách nói, hãy kèm vùng và một tình huống sử dụng. Mỗi gợi ý có ngữ cảnh sẽ giúp nhóm kiểm chứng rõ hơn. #TiengTieu #NguoiTieu",
+          "cta": "Bạn có ví dụ muốn góp kèm vùng và ngữ cảnh sử dụng không?"
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Với nghĩa “Tôi nghe không hiểu”, nhà bạn có cách nói Tiếng Tiều khác không? Ví dụ để cùng nghe: 我聼無 — ua2 tian1 bho5. Mỗi gợi ý có ngữ cảnh sẽ giúp nhóm kiểm chứng rõ hơn.",
+          "cta": "Nếu muốn góp, hãy kèm vùng và câu ví dụ nhé."
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Nhà bạn nói “Tôi nghe không hiểu” thế nào? Cùng nghe ví dụ 我聼無 · ua2 tian1 bho5 rồi chia sẻ cách nói của bạn. #TiengTieu #NguoiTieu",
+          "cta": "Góp vùng và một câu ví dụ nếu bạn muốn nhé."
+        }
+      }
+    },
+    {
+      "id": "P10",
+      "day": 21,
+      "title": "Thêm một lần nghe ở tốc độ gốc",
+      "pillar": "nghe-mot-cau",
+      "objective": "Thử nhịp nghe lại dễ theo dõi",
+      "hook": "Mới bắt đầu? Thử nghe trước, chưa cần nói nhanh.",
+      "keywords": [
+        "nghe Tiếng Tiều",
+        "học Tiếng Tiều cho người Việt"
+      ],
+      "source_ref": "word:790",
+      "source_note": "Dùng nguyên audio mục 790; giải thích phiên âm bằng việc hiển thị, không tự diễn giải quy tắc âm chưa có nguồn.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–3 giây: hiện hook H16, chưa hiện phiên âm.",
+          "3–9 giây: phát audio mục 790 nguyên bản.",
+          "9–17 giây: hiện câu/phiên âm/nghĩa đã kiểm tra và giữ khoảng nghỉ.",
+          "17–28 giây: phát lại cùng audio ở tốc độ gốc rồi kết CTA nghe/thử nói."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Mới bắt đầu? Thử nghe trước, chưa cần nói nhanh. Video phát câu 食好(阿)未 — ziah4 ho2 bhuê7 — “Bạn ăn cơm chưa? (lời chào)” hai lần. Lần sau có chữ và nghĩa để bạn theo dõi. Bạn có thể nghe lại theo nhịp của mình. #TiengTieu #HocTiengTieu",
+          "cta": "Nghe thêm một lần rồi thử nói theo nhé."
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Thử cùng một câu hai lần: lần đầu nghe, lần sau xem 食好(阿)未 — ziah4 ho2 bhuê7 và nghĩa “Bạn ăn cơm chưa? (lời chào)”.",
+          "cta": "Bạn muốn lần sau có chữ từ đầu hay hiện chữ sau?"
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Hai lần nghe, một câu để tập: 食好(阿)未 · ziah4 ho2 bhuê7 · “Bạn ăn cơm chưa? (lời chào)”. #TiengTieu #HocTiengTieu",
+          "cta": "Nghe thêm một lần rồi thử nói theo nhé."
+        }
+      }
+    },
+    {
+      "id": "P11",
+      "day": 23,
+      "title": "Cách nói nhà mình có gì khác?",
+      "pillar": "hoc-va-gop",
+      "objective": "Làm rõ nguồn và thu thập góp ý đúng kỳ vọng",
+      "hook": "Cách đọc nền và cách nói nhà mình: cùng nghe rồi góp ý.",
+      "keywords": [
+        "người Tiều",
+        "Tiếng Tiều Chợ Lớn",
+        "cách nói Sóc Trăng"
+      ],
+      "source_ref": "app:dictionary",
+      "source_note": "Nghiên cứu thị trường tài liệu nghiên cứu thị trường xác định dữ liệu app là cách đọc nền; minh hoạ bằng mục 14/790. Chưa có bản vùng được duyệt để phát đối chiếu, nên không dựng cặp audio.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–3 giây: hiện Cách đọc nền và cách nói nhà mình.",
+          "3–12 giây: quay mục 14 hoặc 790 trong app, gắn nhãn Nội dung nền.",
+          "12–22 giây: hiện Cách nói cộng đồng cần nguồn và kiểm chứng.",
+          "22–30 giây: một CTA góp vùng/ngữ cảnh."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Cùng một nghĩa, nhà bạn có cách nói khác ví dụ trong từ điển không? Nghe một câu trong video rồi chia sẻ cách nói quen thuộc của gia đình bạn. Vùng và tình huống sử dụng là những gợi ý giúp nhóm kiểm chứng rõ hơn. #TiengTieu #NguoiTieu",
+          "cta": "Bạn muốn góp cách nói nào, ở vùng và tình huống nào?"
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Cùng một nghĩa, nhà bạn có cách nói khác ví dụ trong từ điển không? Nghe câu trong video rồi kể về cách nói quen thuộc của gia đình bạn.",
+          "cta": "Có thể ghi vùng và ngữ cảnh nếu bạn muốn chia sẻ."
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Nghe một câu trong từ điển rồi chia sẻ cách nói quen thuộc của gia đình bạn. Cùng một nghĩa, nhà bạn có cách nói khác không? #TiengTieu #NguoiTieu",
+          "cta": "Góp cách nói kèm vùng và ngữ cảnh nhé."
+        }
+      }
+    },
+    {
+      "id": "P12",
+      "day": 25,
+      "title": "Ôn hai câu đã gặp",
+      "pillar": "nghe-mot-cau",
+      "objective": "Dùng lại nội dung đã kiểm chứng và hỏi nhu cầu tiếp",
+      "hook": "Một câu nhỏ để mở đầu cuộc trò chuyện với người nhà.",
+      "keywords": [
+        "Tiếng Tiều trong gia đình",
+        "nghe và nhắc lại"
+      ],
+      "source_ref": "word:790",
+      "source_note": "Ôn mục 790 食好(阿)未 / ziah4 ho2 bhuê7 / Bạn ăn cơm chưa? (lời chào), và mục 14 我聼無 / ua2 tian1 bho5 / Tôi nghe không hiểu.; không nối thành hội thoại dịch mới.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–3 giây: hiện Cùng ôn hai câu đã gặp.",
+          "3–13 giây: phát audio mục 790, hiện nguyên câu/phiên âm/nghĩa.",
+          "13–23 giây: phát audio mục 14, hiện nguyên câu/phiên âm/nghĩa.",
+          "23–35 giây: hiện ba chủ đề cho bài sau và một CTA chọn tình huống."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Cùng ôn hai câu đã gặp: 食好(阿)未 — ziah4 ho2 bhuê7 — “Bạn ăn cơm chưa? (lời chào)”; 我聼無 — ua2 tian1 bho5 — “Tôi nghe không hiểu.” Video phát từng câu và chừa khoảng nghỉ để bạn thử nói. Sau hai câu này, bạn muốn tập tình huống nào tiếp? #TiengTieu #HocTiengTieu",
+          "cta": "Bạn muốn bài tiếp theo theo tình huống nào?"
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Hai câu đã tập: 食好(阿)未 — “Bạn ăn cơm chưa? (lời chào)”; 我聼無 — “Tôi nghe không hiểu.” Bạn muốn bài sau đi vào câu chào, xưng hô hay một tình huống đời sống?",
+          "cta": "Chọn một tình huống bạn muốn tập tiếp nhé."
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Ôn hai câu 食好(阿)未 / 我聼無. Nghe từng câu, xem nghĩa và dừng một nhịp để thử nói. #TiengTieu #HocTiengTieu",
+          "cta": "Chọn một tình huống bạn muốn tập tiếp nhé."
+        }
+      }
+    },
+    {
+      "id": "P13",
+      "day": 28,
+      "title": "Xem Tiếng Tiều có phù hợp với bạn không",
+      "pillar": "hoc-va-gop",
+      "objective": "Mời người có nhu cầu tìm hiểu/tải qua landing thật",
+      "hook": "Muốn tập tiếp? Xem Tiếng Tiều có phù hợp với bạn không.",
+      "keywords": [
+        "học tiếng Tiều",
+        "Teochew",
+        "học Tiếng Tiều cho người Việt"
+      ],
+      "source_ref": "app:dictionary",
+      "source_note": "Demo thật từ điển/nghe hai mục đã xác minh. Landing canonical controller xác minh HTTP 200 ngày 02/10/2026. UTM mới chỉ ghi nhãn nguồn, không tự đo cài đặt.",
+      "production": {
+        "format": "Video dọc 20–35 giây; có thể lấy một frame sạch thành card Facebook",
+        "steps": [
+          "0–3 giây: hiện hook H24.",
+          "3–14 giây: quay thao tác thật tìm/mở mục 790 trong từ điển.",
+          "14–23 giây: phát audio, chỉ vào câu/phiên âm/nghĩa đã kiểm tra.",
+          "23–32 giây: hiện canonical landing và CTA tìm hiểu/tải theo đường dẫn thực tế."
+        ],
+        "asset_hint": "Dùng màn hình app/media tự sản xuất và audio đúng mục nguồn; kiểm tra chữ/phiên âm/nghĩa trước xuất bản. Không dùng ảnh hoặc lời kể riêng của người khác khi chưa có đồng ý."
+      },
+      "channels": {
+        "facebook": {
+          "format": "Reel gốc hoặc card kèm caption riêng",
+          "caption": "Muốn tập tiếp sau những câu đã nghe? Xem cách mở một mục trong từ điển Tiếng Tiều, đọc nghĩa tiếng Việt rồi nghe audio. Phần giới thiệu có thông tin về app và đường tải để bạn chọn có phù hợp với nhu cầu của mình không. #TiengTieu #HocTiengTieu",
+          "cta": "Xem phần giới thiệu và đường tải hiện có: https://kanglee079.github.io/tieng-tieu-support/"
+        },
+        "threads": {
+          "format": "Bài viết riêng, có thể kèm video/frame với ngữ cảnh",
+          "caption": "Muốn tập tiếp? Xem cách mở một mục trong từ điển Tiếng Tiều, đọc nghĩa tiếng Việt rồi nghe audio. Phần giới thiệu có thông tin về app và đường tải.",
+          "cta": "Xem giới thiệu và đường tải: https://kanglee079.github.io/tieng-tieu-support/"
+        },
+        "tiktok": {
+          "format": "Video dọc có phụ đề, audio nguồn và khoảng nghỉ",
+          "caption": "Muốn tập tiếp? Xem cách dùng từ điển Tiếng Tiều: mở mục → đọc nghĩa tiếng Việt → nghe audio. #TiengTieu #HocTiengTieu",
+          "cta": "Xem giới thiệu và đường tải: https://kanglee079.github.io/tieng-tieu-support/"
+        }
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "day": 0,
+      "title": "Đăng P01: Một câu chào trong gia đình",
+      "kind": "publish",
+      "detail": "Chuẩn bị P01 trong 20 phút sản xuất tuần, rồi preflight khoảng 15 phút: kiểm tra nguyên văn mục 790/14, audio, nhãn cách đọc, media và landing; xem ba caption. Người vận hành tự đăng nếu đạt, ghi URL và phút đã dùng. UTM chỉ là nhãn nguồn; chiến dịch organic, không ads.",
+      "content_id": "P01"
+    },
+    {
+      "day": 1,
+      "title": "Chuẩn bị P02/P03",
+      "kind": "produce",
+      "detail": "35 phút: dùng cùng mẫu video/card để hoàn thiện P02/P03; giữ hai audio gốc và caption đã có, không quay riêng cho từng kênh. Ghi phút thực tế; câu hoặc giọng chưa có nguồn tiếp tục chờ xác minh."
+    },
+    {
+      "day": 2,
+      "title": "Đăng P02: Khi nghe mà chưa hiểu",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P01 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P02"
+    },
+    {
+      "day": 3,
+      "title": "Chuẩn bị P04 cho tuần sau",
+      "kind": "produce",
+      "detail": "15 phút trong tuần đầu: hoàn thiện P03 và chuẩn bị P04 từ cùng mẫu; phần dựng P01 trước đăng dùng 20 phút còn lại của ngân sách 70 phút sản xuất tuần. Ghi phút thực tế; câu hoặc giọng chưa có nguồn tiếp tục chờ xác minh."
+    },
+    {
+      "day": 4,
+      "title": "Đăng P03: Bắt đầu từ một mục trong từ điển",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P02 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P03"
+    },
+    {
+      "day": 5,
+      "title": "Rà tín hiệu và câu hỏi trong khoảng 15 phút",
+      "kind": "research",
+      "detail": "Xem nguồn công khai/công cụ mình có quyền truy cập, ghi ngày giờ-vùng-cửa sổ dữ liệu nếu có. Creative Center chưa có bảng đủ bằng chứng thì ghi thiếu dữ liệu, không đặt nhãn hot. Trả lời một vài câu hỏi đúng nội dung, không nhắn hàng loạt."
+    },
+    {
+      "day": 6,
+      "title": "Review tuần: kết quả thật và giờ đã dùng",
+      "kind": "review",
+      "detail": "Đọc số liệu đã đến hạn trong cùng kênh; ghi tổng phút tuần so với mức 2–3 giờ đã xác nhận. Giữ một điều hiệu quả và sửa một điều; ghi câu cần cố vấn xác minh. Không đổi click thành lượt tải hoặc cộng reach thành người duy nhất. Chiến dịch organic, không ads. Ghi hai số liệu phù hợp cho P03 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch."
+    },
+    {
+      "day": 7,
+      "title": "Đăng P04: Nghe rồi đoán nghĩa câu chào",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P01 ở 7 ngày trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P04"
+    },
+    {
+      "day": 8,
+      "title": "Chuẩn bị P05/P06/P07",
+      "kind": "produce",
+      "detail": "45 phút: quay/dựng gộp P05/P06 và nguồn cho P07 tuần sau; bản Facebook/Threads dùng caption riêng và frame sạch từ video gốc. Ghi phút thực tế; câu hoặc giọng chưa có nguồn tiếp tục chờ xác minh."
+    },
+    {
+      "day": 9,
+      "title": "Đăng P05: Từ nào khiến bạn nhớ đến người nhà?",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P02 ở 7 ngày, P04 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P05"
+    },
+    {
+      "day": 10,
+      "title": "Hoàn thiện P06/P07",
+      "kind": "produce",
+      "detail": "25 phút: kiểm tra bản xuất P06/P07 và chuyển bản theo kênh; P07 sẵn sàng trước thứ Hai tuần sau. Ghi phút thực tế; câu hoặc giọng chưa có nguồn tiếp tục chờ xác minh."
+    },
+    {
+      "day": 11,
+      "title": "Đăng P06: Bạn muốn học câu nào trong đời sống?",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P03 ở 7 ngày, P05 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P06"
+    },
+    {
+      "day": 12,
+      "title": "Rà tín hiệu và câu hỏi trong khoảng 15 phút",
+      "kind": "research",
+      "detail": "Xem nguồn công khai/công cụ mình có quyền truy cập, ghi ngày giờ-vùng-cửa sổ dữ liệu nếu có. Creative Center chưa có bảng đủ bằng chứng thì ghi thiếu dữ liệu, không đặt nhãn hot. Trả lời một vài câu hỏi đúng nội dung, không nhắn hàng loạt."
+    },
+    {
+      "day": 13,
+      "title": "Review tuần: kết quả thật và giờ đã dùng",
+      "kind": "review",
+      "detail": "Đọc số liệu đã đến hạn trong cùng kênh; ghi tổng phút tuần so với mức 2–3 giờ đã xác nhận. Giữ một điều hiệu quả và sửa một điều; ghi câu cần cố vấn xác minh. Không đổi click thành lượt tải hoặc cộng reach thành người duy nhất. Chiến dịch organic, không ads. Ghi hai số liệu phù hợp cho P06 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch."
+    },
+    {
+      "day": 14,
+      "title": "Đăng P07: Lời chào có nghĩa Bạn ăn cơm chưa?",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P04 ở 7 ngày trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P07"
+    },
+    {
+      "day": 15,
+      "title": "Chuẩn bị P08/P09/P10",
+      "kind": "produce",
+      "detail": "45 phút: dựng gộp P08/P09 và nguồn cho P10 tuần sau; giữ tốc độ audio gốc và một CTA mỗi kênh. Ghi phút thực tế; câu hoặc giọng chưa có nguồn tiếp tục chờ xác minh."
+    },
+    {
+      "day": 16,
+      "title": "Đăng P08: Một câu có khoảng nghỉ để thử nói",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P05 ở 7 ngày, P07 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P08"
+    },
+    {
+      "day": 17,
+      "title": "Hoàn thiện P09/P10",
+      "kind": "produce",
+      "detail": "25 phút: kiểm tra bản xuất P09/P10 và chuyển bản theo kênh; P10 sẵn sàng trước thứ Hai tuần sau. Ghi phút thực tế; câu hoặc giọng chưa có nguồn tiếp tục chờ xác minh."
+    },
+    {
+      "day": 18,
+      "title": "Đăng P09: Góp cách nói nhà mình",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P06 ở 7 ngày, P08 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P09"
+    },
+    {
+      "day": 19,
+      "title": "Rà tín hiệu và câu hỏi trong khoảng 15 phút",
+      "kind": "research",
+      "detail": "Xem nguồn công khai/công cụ mình có quyền truy cập, ghi ngày giờ-vùng-cửa sổ dữ liệu nếu có. Creative Center chưa có bảng đủ bằng chứng thì ghi thiếu dữ liệu, không đặt nhãn hot. Trả lời một vài câu hỏi đúng nội dung, không nhắn hàng loạt."
+    },
+    {
+      "day": 20,
+      "title": "Review tuần: kết quả thật và giờ đã dùng",
+      "kind": "review",
+      "detail": "Đọc số liệu đã đến hạn trong cùng kênh; ghi tổng phút tuần so với mức 2–3 giờ đã xác nhận. Giữ một điều hiệu quả và sửa một điều; ghi câu cần cố vấn xác minh. Không đổi click thành lượt tải hoặc cộng reach thành người duy nhất. Chiến dịch organic, không ads. Ghi hai số liệu phù hợp cho P09 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch."
+    },
+    {
+      "day": 21,
+      "title": "Đăng P10: Thêm một lần nghe ở tốc độ gốc",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P07 ở 7 ngày trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P10"
+    },
+    {
+      "day": 22,
+      "title": "Chuẩn bị P11/P12/P13",
+      "kind": "produce",
+      "detail": "45 phút: dựng gộp câu hỏi P11, bài ôn P12 và demo P13 từ video app thật; giữ nguồn minh hoạ đã kiểm tra. Ghi phút thực tế; câu hoặc giọng chưa có nguồn tiếp tục chờ xác minh."
+    },
+    {
+      "day": 23,
+      "title": "Đăng P11: Cách nói nhà mình có gì khác?",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P08 ở 7 ngày, P10 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P11"
+    },
+    {
+      "day": 24,
+      "title": "Hoàn thiện P12/P13",
+      "kind": "produce",
+      "detail": "25 phút: kiểm tra bản xuất P12/P13, CTA và landing; P13 sẵn sàng trước thứ Hai tuần sau. Ghi phút thực tế; câu hoặc giọng chưa có nguồn tiếp tục chờ xác minh."
+    },
+    {
+      "day": 25,
+      "title": "Đăng P12: Ôn hai câu đã gặp",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P09 ở 7 ngày, P11 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P12"
+    },
+    {
+      "day": 26,
+      "title": "Rà tín hiệu và câu hỏi trong khoảng 15 phút",
+      "kind": "research",
+      "detail": "Xem nguồn công khai/công cụ mình có quyền truy cập, ghi ngày giờ-vùng-cửa sổ dữ liệu nếu có. Creative Center chưa có bảng đủ bằng chứng thì ghi thiếu dữ liệu, không đặt nhãn hot. Trả lời một vài câu hỏi đúng nội dung, không nhắn hàng loạt."
+    },
+    {
+      "day": 27,
+      "title": "Review tuần: kết quả thật và giờ đã dùng",
+      "kind": "review",
+      "detail": "Đọc số liệu đã đến hạn trong cùng kênh; ghi tổng phút tuần so với mức 2–3 giờ đã xác nhận. Giữ một điều hiệu quả và sửa một điều; ghi câu cần cố vấn xác minh. Không đổi click thành lượt tải hoặc cộng reach thành người duy nhất. Chiến dịch organic, không ads. Ghi hai số liệu phù hợp cho P12 ở 48 giờ trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch."
+    },
+    {
+      "day": 28,
+      "title": "Đăng P13: Xem Tiếng Tiều có phù hợp với bạn không",
+      "kind": "publish",
+      "detail": "Người vận hành duyệt nguồn/media/CTA rồi tự đăng ba bản đã chuẩn bị theo kênh; ghi URL và phút đã dùng. Chiến dịch organic, không ads; workspace không tự đăng. Ghi hai số liệu phù hợp cho P10 ở 7 ngày trong khoảng 1–2 phút; tính hạn từ ngày giờ đăng thật nếu khác lịch.",
+      "content_id": "P13"
+    },
+    {
+      "day": 29,
+      "title": "Tổng kết 30 ngày và chọn thử nghiệm tiếp",
+      "kind": "review",
+      "detail": "Đọc số liệu đã đến hạn trong cùng kênh; ghi tổng phút tuần so với mức 2–3 giờ đã xác nhận. Giữ một điều hiệu quả và sửa một điều; ghi câu cần cố vấn xác minh. Không đổi click thành lượt tải hoặc cộng reach thành người duy nhất. Chiến dịch organic, không ads. Tổng kết sớm, chọn hai dạng để thử tiếp; mốc chưa đến hạn tiếp tục ghi chưa đo. Nếu đăng đúng lịch: P11 đến mốc 7 ngày ngày 04/11; P12 ngày 06/11; P13 đến mốc 48 giờ ngày 04/11 và 7 ngày ngày 09/11."
+    }
+  ]
+}
